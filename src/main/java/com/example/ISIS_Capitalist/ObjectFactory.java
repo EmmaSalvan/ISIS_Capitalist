@@ -6,7 +6,7 @@
 //
 
 
-package generated;
+package com.example.ISIS_Capitalist;
 
 import javax.xml.bind.annotation.XmlRegistry;
 
