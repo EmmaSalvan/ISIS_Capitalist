@@ -21,7 +21,7 @@ and open the template in the editor.
         <product>
             <id>1</id>
             <name>Souris</name>
-            <logo></logo>
+            <logo>mouse.png</logo>
             <cout>4</cout>
             <croissance>1,07</croissance>
             <revenu>1</revenu>
@@ -32,7 +32,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>PallierS1</name>
-                    <logo></logo>
+                    <logo>mouse.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -41,7 +41,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierS2</name>
-                    <logo></logo>
+                    <logo>mouse.png</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -50,7 +50,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierS3</name>
-                    <logo></logo>
+                    <logo>mouse.png</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -62,7 +62,7 @@ and open the template in the editor.
         <product>
             <id>2</id>
             <name>Clavier</name>
-            <logo></logo>
+            <logo>keyboard.png</logo>
             <cout>60</cout>
             <croissance>1,15</croissance>
             <revenu>60</revenu>
@@ -73,7 +73,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>PallierC1</name>
-                    <logo></logo>
+                    <logo>keyboard.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -82,7 +82,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierC2</name>
-                    <logo></logo>
+                    <logo>keyboard.png</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -91,7 +91,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierC3</name>
-                    <logo></logo>
+                    <logo>keyboard.png</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -103,7 +103,7 @@ and open the template in the editor.
         <product>
             <id>3</id>
             <name>Poney</name>
-            <logo></logo>
+            <logo>horse.png</logo>
             <cout>720</cout>
             <croissance>1,14</croissance>
             <revenu>540</revenu>
@@ -114,7 +114,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>PallierP1</name>
-                    <logo></logo>
+                    <logo>horse.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -123,7 +123,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierP2</name>
-                    <logo></logo>
+                    <logo>horse.png</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -132,7 +132,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierP3</name>
-                    <logo></logo>
+                    <logo>horse.png</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -144,7 +144,7 @@ and open the template in the editor.
         <product>
             <id>4</id>
             <name>Ordinateur</name>
-            <logo></logo>
+            <logo>computer.png</logo>
             <cout>8640</cout>
             <croissance>1,13</croissance>
             <revenu>4320</revenu>
@@ -155,7 +155,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>PallierO1</name>
-                    <logo></logo>
+                    <logo>computer.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -164,7 +164,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierO2</name>
-                    <logo></logo>
+                    <logo>computer.png</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -173,7 +173,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierO3</name>
-                    <logo></logo>
+                    <logo>computer.png</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -185,7 +185,7 @@ and open the template in the editor.
         <product>
             <id>5</id>
             <name>Serveur</name>
-            <logo></logo>
+            <logo>server.png</logo>
             <cout>103680</cout>
             <croissance>1,12</croissance>
             <revenu>51840</revenu>
@@ -196,7 +196,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>PallierS1</name>
-                    <logo></logo>
+                    <logo>server.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -205,7 +205,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierS2</name>
-                    <logo></logo>
+                    <logo>server.png</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -214,7 +214,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierS3</name>
-                    <logo></logo>
+                    <logo>server.png</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -226,7 +226,7 @@ and open the template in the editor.
         <product>
             <id>6</id>
             <name>Clinique</name>
-            <logo></logo>
+            <logo>hopsital.png</logo>
             <cout>1244160</cout>
             <croissance>1,11</croissance>
             <revenu>622080</revenu>
@@ -237,7 +237,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>PallierH1</name>
-                    <logo></logo>
+                    <logo>hopsital.png</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -246,7 +246,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierH2</name>
-                    <logo></logo>
+                    <logo>hopsital.png</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -255,7 +255,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>PallierH3</name>
-                    <logo></logo>
+                    <logo>hopsital.png</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
@@ -297,7 +297,7 @@ and open the template in the editor.
     <upgrades>
         <pallier>
             <name>Souris Gaming</name>
-            <logo></logo>
+            <logo>mouse2.png</logo>
             <seuil>100000</seuil>
             <idcible>1</idcible>
             <ratio>3</ratio>
@@ -306,7 +306,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Clavier sans fils</name>
-            <logo></logo>
+            <logo>keyboard.png</logo>
             <seuil>500000</seuil>
             <idcible>2</idcible>
             <ratio>3</ratio>
@@ -314,8 +314,8 @@ and open the template in the editor.
             <unlocked>False</unlocked>
         </pallier>
         <pallier>
-            <name>Ane</name>
-            <logo></logo>
+            <name>Cheval</name>
+            <logo>horse2.png</logo>
             <seuil>1000000</seuil>
             <idcible>3</idcible>
             <ratio>3</ratio>
@@ -324,7 +324,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Ordinateur2</name>
-            <logo></logo>
+            <logo>computer2.png</logo>
             <seuil>5000000</seuil>
             <idcible>4</idcible>
             <ratio>3</ratio>
@@ -333,7 +333,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Serveur2</name>
-            <logo></logo>
+            <logo>server2.png</logo>
             <seuil>10000000</seuil>
             <idcible>5</idcible>
             <ratio>3</ratio>
@@ -342,7 +342,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Hopital</name>
-            <logo></logo>
+            <logo>hospital2.png</logo>
             <seuil>25000000</seuil>
             <idcible>6</idcible>
             <ratio>3</ratio>
@@ -353,7 +353,7 @@ and open the template in the editor.
     <angelupgrades>
         <pallier>
             <name>Perrine</name>
-            <logo></logo>
+            <logo>angelperrine.png</logo>
             <seuil>10000</seuil>
             <idcible>0</idcible>
             <ratio>3</ratio>
@@ -362,7 +362,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Emma</name>
-            <logo></logo>
+            <logo>angelemma.png</logo>
             <seuil>100000</seuil>
             <idcible>0</idcible>
             <ratio>5</ratio>
@@ -371,7 +371,7 @@ and open the template in the editor.
         </pallier>
         <pallier>
             <name>Marie</name>
-            <logo></logo>
+            <logo>angelmarie.png</logo>
             <seuil>100000000</seuil>
             <idcible>0</idcible>
             <ratio>9</ratio>
@@ -381,45 +381,45 @@ and open the template in the editor.
     </angelupgrades>
     <managers>
         <pallier>
-            <name>Manager1</name>
-            <logo></logo>
+            <name>Etudiant</name>
+            <logo>child.png</logo>
             <seuil>1000</seuil>
             <idcible>1</idcible>
             <unlocked>False</unlocked>
         </pallier>
         <pallier>
-            <name>Manager2</name>
-            <logo></logo>
+            <name>Diplomé</name>
+            <logo>student.png</logo>
             <seuil>15000</seuil>
             <idcible>2</idcible>
             <unlocked>False</unlocked>
         </pallier>
         <pallier>
-            <name>Manager3</name>
-            <logo></logo>
+            <name>Enseignant</name>
+            <logo>teacher.png</logo>
             <seuil>100000</seuil>
             <idcible>3</idcible>
             <unlocked>False</unlocked>
         </pallier>
         <pallier>
-            <name>Manager4</name>
-            <logo></logo>
+            <name>Directeur</name>
+            <logo>director.png</logo>
             <seuil>500000</seuil>
             <idcible>4</idcible>
             <unlocked>False</unlocked>
         </pallier>
         <pallier>
-            <name>Manager5</name>
-            <logo></logo>
+            <name>Ingénieur</name>
+            <logo>employee.png</logo>
             <seuil>1200000</seuil>
-            <idcible>1</idcible>
+            <idcible>5</idcible>
             <unlocked>False</unlocked>
         </pallier>
         <pallier>
-            <name>Manager6</name>
-            <logo></logo>
-            <seuil></seuil>
-            <idcible>10000000</idcible>
+            <name>Médecin</name>
+            <logo>doctor.png</logo>
+            <seuil>10000000</seuil>
+            <idcible>6</idcible>
             <unlocked>False</unlocked>
         </pallier>
     </managers>
