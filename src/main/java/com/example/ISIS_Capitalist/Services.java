@@ -29,7 +29,7 @@ public class Services {
             InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
             JAXBContext cont = JAXBContext.newInstance(World.class);
             Unmarshaller u = cont.createUnmarshaller();
-            World world = (World) u.unmarshal(input);
+            world = (World) u.unmarshal(input);
         } catch (Exception e) {
             e.printStackTrace();
         }
