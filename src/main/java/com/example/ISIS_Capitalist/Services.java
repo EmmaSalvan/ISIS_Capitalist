@@ -232,7 +232,20 @@ public class Services {
         
         // sauvegarder les changements au monde
         saveWorldToXml(username, world);
-        return true;
-       
+        return true; 
+    }
+    
+     public void unlock(PallierType pallier, ProductType p ){
+        pallier.setUnlocked(true);
+        if(pallier.getTyperatio()== TyperatioType.VITESSE){
+            double vitesse = p.getVitesse();
+            vitesse=(int) (vitesse*pallier.getRatio());
+            p.setVitesse((int) vitesse);
+        }
+        if (pallier.getTyperatio()==TyperatioType.GAIN) {
+            double revenu = p.getRevenu();
+                   revenu = revenu*pallier.getRatio();
+                   p.setRevenu(revenu);
+        }
     }
 }

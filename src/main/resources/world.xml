@@ -11,7 +11,7 @@ and open the template in the editor.
     xsi:noNamespaceSchemaLocation='file:/Users/emmasalvan/Downloads/ISIS_Capitalist/src/main/java/com/example/ISIS_Capitalist/worldSchema.xsd'>
     <name>ISIS Capitalist</name>
     <logo>icones/ISIS.png</logo>
-    <money>0</money>
+    <money>1000000000</money>
     <score>0</score>
     <totalangels>0</totalangels>
     <activeangels>0</activeangels>
@@ -26,7 +26,7 @@ and open the template in the editor.
             <croissance>1.07</croissance>
             <revenu>1</revenu>
             <vitesse>500</vitesse>
-            <quantite>1</quantite>
+            <quantite>14</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -67,7 +67,7 @@ and open the template in the editor.
             <croissance>1.15</croissance>
             <revenu>60</revenu>
             <vitesse>3000</vitesse>
-            <quantite>0</quantite>
+            <quantite>14</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -108,7 +108,7 @@ and open the template in the editor.
             <croissance>1.14</croissance>
             <revenu>540</revenu>
             <vitesse>6000</vitesse>
-            <quantite>0</quantite>
+            <quantite>14</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -149,7 +149,7 @@ and open the template in the editor.
             <croissance>1.13</croissance>
             <revenu>4320</revenu>
             <vitesse>12000</vitesse>
-            <quantite>0</quantite>
+            <quantite>14</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -190,7 +190,7 @@ and open the template in the editor.
             <croissance>1.12</croissance>
             <revenu>51840</revenu>
             <vitesse>24000</vitesse>
-            <quantite>0</quantite>
+            <quantite>14</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -231,7 +231,7 @@ and open the template in the editor.
             <croissance>1.11</croissance>
             <revenu>622080</revenu>
             <vitesse>96000</vitesse>
-            <quantite>0</quantite>
+            <quantite>14</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -267,31 +267,22 @@ and open the template in the editor.
     </products>
     <allunlocks>
         <pallier>
-            <name></name>
-            <logo></logo>
-            <seuil></seuil>
+            <name>Unlock Vitesse</name>
+            <logo>icones/fast.png</logo>
+            <seuil>15</seuil>
             <idcible>0</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name></name>
-            <logo></logo>
-            <seuil></seuil>
+            <name>Unlock Gain</name>
+            <logo>icones/money.png</logo>
+            <seuil>25</seuil>
             <idcible>0</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
-        </pallier>
-        <pallier>
-            <name></name>
-            <logo></logo>
-            <seuil></seuil>
-            <idcible>0</idcible>
-            <ratio></ratio>
-            <typeratio></typeratio>
-            <unlocked></unlocked>
+            <ratio>2</ratio>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
     <upgrades>
@@ -423,5 +414,4 @@ and open the template in the editor.
             <unlocked>false</unlocked>
         </pallier>
     </managers>
-
 </world>
