@@ -53,7 +53,10 @@ public class Services {
     }
 
     World getWorld(String username) throws JAXBException {
-        return readWorldFromXml(username);
+        World world1 = readWorldFromXml(username);
+        //updateWorld(world1);
+        saveWorldToXml(username, world1);
+        return world1; 
     }
     
     void updateWorld(World world){
@@ -188,5 +191,48 @@ public class Services {
         // sauvegarder les changements au monde
         saveWorldToXml(username, world);
         return true;
+    }
+    
+    public PallierType findUpgradeByName(World world, String name) {
+        PallierType up = null;
+        for (PallierType p : world.getUpgrades().pallier) {
+            if (name.equals(p.getName())) {
+                up = p;
+            }
+        }
+        return up;
+    }
+
+    public Boolean updateUpgrade(String username, PallierType newupgrade) throws JAXBException {
+        // aller chercher le monde qui correspond au joueur
+        World world = getWorld(username);
+        // trouver dans ce monde, le manager équivalent à celui passé en paramètre
+        PallierType upgrade = findManagerByName(world, newupgrade.getName());
+        if (upgrade == null) {
+            return false;
+        }
+        // débloquer ce cash upgrade
+        upgrade.setUnlocked(true);
+
+        // trouver le produit correspondant au manager
+        ProductType product = findProductById(world, upgrade.getIdcible());
+        if (product == null) {
+            return false;
+        }
+        // soustraire de l'argent du joueur le cout du cash upgrade
+        double money = world.getMoney();
+        double seuil = upgrade.getSeuil();
+        
+        double newMoney = money - seuil;
+        world.setMoney(newMoney);
+        
+        // modifier le revenu du produit en fonction du ratio du cash upgrade
+        double newRevenu=product.getRevenu()*upgrade.getRatio();
+        product.setRevenu(newRevenu);
+        
+        // sauvegarder les changements au monde
+        saveWorldToXml(username, world);
+        return true;
+       
     }
 }

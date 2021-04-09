@@ -24,7 +24,7 @@ import javax.xml.bind.JAXBException;
 public class Webservices {
 
     Services services;
-    static ArrayList<Long> timeDiff = new ArrayList<>();
+    //static ArrayList<Long> timeDiff = new ArrayList<>();
 
     public Webservices() {
         services = new Services();
@@ -62,9 +62,9 @@ public class Webservices {
     }
     
     @PUT
-    @Path("world")
-    public void putWorld(@Context HttpServletRequest request,World world) throws JAXBException{
-    String username = request.getHeader("X-user");
-    services.saveWorldToXml(username, world);
+    @Path("upgrade")
+    public void putUpgrade(@Context HttpServletRequest request, PallierType upgrade) throws JAXBException{
+        String username = request.getHeader("X-user");
+        services.updateUpgrade(username, upgrade);
     }
 }

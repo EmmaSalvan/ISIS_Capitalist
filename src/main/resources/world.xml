@@ -26,9 +26,9 @@ and open the template in the editor.
             <croissance>1.07</croissance>
             <revenu>1</revenu>
             <vitesse>500</vitesse>
-            <quantite>0</quantite>
+            <quantite>1</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>False</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>PallierS1</name>
@@ -36,8 +36,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierS2</name>
@@ -45,8 +45,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierS3</name>
@@ -54,8 +54,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
             </palliers>
         </product>
@@ -69,7 +69,7 @@ and open the template in the editor.
             <vitesse>3000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>False</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>PallierC1</name>
@@ -77,8 +77,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierC2</name>
@@ -86,8 +86,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierC3</name>
@@ -95,8 +95,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
             </palliers>
         </product>
@@ -110,7 +110,7 @@ and open the template in the editor.
             <vitesse>6000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>False</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>PallierP1</name>
@@ -118,8 +118,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierP2</name>
@@ -127,8 +127,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierP3</name>
@@ -136,8 +136,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
             </palliers>
         </product>
@@ -151,7 +151,7 @@ and open the template in the editor.
             <vitesse>12000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>False</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>PallierO1</name>
@@ -159,8 +159,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierO2</name>
@@ -168,8 +168,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierO3</name>
@@ -177,14 +177,14 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
             </palliers>
         </product>
         <product>
             <id>5</id>
-            <name>Serveur</name>
+            <name>Serveur OVH</name>
             <logo>icones/server.png</logo>
             <cout>103680</cout>
             <croissance>1.12</croissance>
@@ -192,7 +192,7 @@ and open the template in the editor.
             <vitesse>24000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>False</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>PallierS1</name>
@@ -200,8 +200,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierS2</name>
@@ -209,8 +209,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierS3</name>
@@ -218,8 +218,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
             </palliers>
         </product>
@@ -233,7 +233,7 @@ and open the template in the editor.
             <vitesse>96000</vitesse>
             <quantite>0</quantite>
             <timeleft>0</timeleft>
-            <managerUnlocked>False</managerUnlocked>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
                     <name>PallierH1</name>
@@ -241,8 +241,8 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierH2</name>
@@ -250,8 +250,8 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
                 <pallier>
                     <name>PallierH3</name>
@@ -259,8 +259,8 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>2</ratio>
-                    <typeratio>VITESSE</typeratio>
-                    <unlocked>False</unlocked> 
+                    <typeratio>vitesse</typeratio>
+                    <unlocked>false</unlocked> 
                 </pallier>
             </palliers>
         </product>
@@ -298,56 +298,56 @@ and open the template in the editor.
         <pallier>
             <name>Souris Gaming</name>
             <logo>icones/mouse2.png</logo>
-            <seuil>100000</seuil>
+            <seuil>10000</seuil>
             <idcible>1</idcible>
             <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Clavier sans fils</name>
             <logo>icones/keyboard2.png</logo>
-            <seuil>500000</seuil>
+            <seuil>50000</seuil>
             <idcible>2</idcible>
             <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Cheval</name>
             <logo>icones/horse2.png</logo>
-            <seuil>1000000</seuil>
+            <seuil>100000</seuil>
             <idcible>3</idcible>
             <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Ordinateur2</name>
+            <name>Ordinateur neuf</name>
             <logo>icones/computer2.png</logo>
-            <seuil>5000000</seuil>
+            <seuil>500000</seuil>
             <idcible>4</idcible>
             <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
-            <name>Serveur2</name>
+            <name>Serveur Hostinger</name>
             <logo>icones/server2.png</logo>
-            <seuil>10000000</seuil>
+            <seuil>1000000</seuil>
             <idcible>5</idcible>
             <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Hopital</name>
             <logo>icones/hospital2.png</logo>
-            <seuil>25000000</seuil>
+            <seuil>2500000</seuil>
             <idcible>6</idcible>
             <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
     </upgrades>
     <angelupgrades>
@@ -357,8 +357,8 @@ and open the template in the editor.
             <seuil>10000</seuil>
             <idcible>0</idcible>
             <ratio>3</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Emma</name>
@@ -366,8 +366,8 @@ and open the template in the editor.
             <seuil>100000</seuil>
             <idcible>0</idcible>
             <ratio>5</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Marie</name>
@@ -375,8 +375,8 @@ and open the template in the editor.
             <seuil>100000000</seuil>
             <idcible>0</idcible>
             <ratio>9</ratio>
-            <typeratio>GAIN</typeratio>
-            <unlocked>False</unlocked>
+            <typeratio>gain</typeratio>
+            <unlocked>false</unlocked>
         </pallier>
     </angelupgrades>
     <managers>
@@ -385,42 +385,42 @@ and open the template in the editor.
             <logo>icones/child.png</logo>
             <seuil>1000</seuil>
             <idcible>1</idcible>
-            <unlocked>False</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Diplomé</name>
             <logo>icones/student.png</logo>
             <seuil>15000</seuil>
             <idcible>2</idcible>
-            <unlocked>False</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Enseignant</name>
             <logo>icones/teacher.png</logo>
             <seuil>100000</seuil>
             <idcible>3</idcible>
-            <unlocked>False</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Directeur</name>
-            <logo>icones/director.png</logo>
+            <logo>icones/boss.png</logo>
             <seuil>500000</seuil>
             <idcible>4</idcible>
-            <unlocked>False</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Ingénieur</name>
             <logo>icones/employee.png</logo>
             <seuil>1200000</seuil>
             <idcible>5</idcible>
-            <unlocked>False</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
         <pallier>
             <name>Médecin</name>
             <logo>icones/doctor.png</logo>
             <seuil>10000000</seuil>
             <idcible>6</idcible>
-            <unlocked>False</unlocked>
+            <unlocked>false</unlocked>
         </pallier>
     </managers>
 
