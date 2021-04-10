@@ -11,7 +11,7 @@ and open the template in the editor.
     xsi:noNamespaceSchemaLocation='file:/Users/emmasalvan/Downloads/ISIS_Capitalist/src/main/java/com/example/ISIS_Capitalist/worldSchema.xsd'>
     <name>ISIS Capitalist</name>
     <logo>icones/ISIS.png</logo>
-    <money>1000000000</money>
+    <money>0</money>
     <score>0</score>
     <totalangels>0</totalangels>
     <activeangels>0</activeangels>
@@ -272,7 +272,7 @@ and open the template in the editor.
             <seuil>15</seuil>
             <idcible>0</idcible>
             <ratio>2</ratio>
-            <typeratio>gain</typeratio>
+            <typeratio>vitesse</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
