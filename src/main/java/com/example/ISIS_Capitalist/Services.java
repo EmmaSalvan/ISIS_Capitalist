@@ -23,6 +23,7 @@ import javax.xml.bind.Unmarshaller;
  */
 public class Services {
 
+    InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
     World world = new World();
    
 
@@ -58,19 +59,38 @@ public class Services {
         saveWorldToXml(username, world1);
         return world1; 
     }
+
+    public void deleteWorld(String username) throws JAXBException{
+        World wrd =  readWorldFromXml(username);
+        double activeangels = wrd.getActiveangels();
+        double totalangels= wrd.getTotalangels();
+        double angels = nombreAnges(world);
+            activeangels += activeangels + angels ;
+            totalangels += totalangels + angels;
+        double score = wrd.getScore();
+
+        JAXBContext cont = JAXBContext.newInstance(World.class);
+        Unmarshaller u = cont.createUnmarshaller();
+        world = (World) u.unmarshal(input);
+        world.setActiveangels(activeangels);
+        world.setTotalangels(totalangels);
+        world.setScore(score);
+        saveWorldToXml(username, world);
+
+    }
     
     void updateWorld(World world){
         long diff = System.currentTimeMillis() - world.getLastupdate();
-        
+        int angeBonus = world.getAngelbonus();
         List<ProductType> produits = (List<ProductType>) world.getProducts();
         for (ProductType p : produits) {
             // Le produit n'a pas de manager
             if (!p.isManagerUnlocked()){
                 // Le produit a été créé
                 if(p.getTimeleft()!=0 && p.getTimeleft()<diff){
-                    double newScore = world.getScore() + p.getRevenu();
+                    double newScore = world.getScore() + p.getRevenu() * (1+world.getActiveangels()*angeBonus/100);
                     world.setScore(newScore);
-                    double newMoney = world.getMoney() + p.getRevenu();
+                    double newMoney = world.getMoney() + p.getRevenu() * (1+world.getActiveangels()*angeBonus/100);
                     world.setMoney(newMoney);
                 }
                 // Le produit n'a pas été créé
@@ -83,9 +103,9 @@ public class Services {
                 long vitesse = p.getVitesse();
                 long nbProd = (int) diff / vitesse;
                 // On met à jour le score et l'argent du monde en fonction du nombre de produit créé
-                double newScore = world.getScore() + (p.getRevenu()*nbProd);
+                double newScore = world.getScore() + (p.getRevenu()*nbProd* (1+world.getActiveangels()*angeBonus/100));
                 world.setScore(newScore);
-                double newMoney = world.getMoney() + (p.getRevenu()*nbProd);
+                double newMoney = world.getMoney() + (p.getRevenu()*nbProd * (1+world.getActiveangels()*angeBonus/100));
                 world.setMoney(newMoney);
                                 
                 //On calcule le temps restant 
@@ -247,5 +267,12 @@ public class Services {
                    revenu = revenu*pallier.getRatio();
                    p.setRevenu(revenu);
         }
+    }
+
+
+     public double nombreAnges(World world)throws JAXBException{
+        double nombreAnges = world.getTotalangels();
+        double angeToClaim = Math.round(150*Math.sqrt((world.getScore())/Math.pow(10,15)))-nombreAnges;
+        return angeToClaim;
     }
 }

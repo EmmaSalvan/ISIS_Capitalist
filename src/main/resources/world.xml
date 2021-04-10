@@ -26,7 +26,7 @@ and open the template in the editor.
             <croissance>1.07</croissance>
             <revenu>1</revenu>
             <vitesse>500</vitesse>
-            <quantite>14</quantite>
+            <quantite>1</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -67,7 +67,7 @@ and open the template in the editor.
             <croissance>1.15</croissance>
             <revenu>60</revenu>
             <vitesse>3000</vitesse>
-            <quantite>14</quantite>
+            <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -108,7 +108,7 @@ and open the template in the editor.
             <croissance>1.14</croissance>
             <revenu>540</revenu>
             <vitesse>6000</vitesse>
-            <quantite>14</quantite>
+            <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -149,7 +149,7 @@ and open the template in the editor.
             <croissance>1.13</croissance>
             <revenu>4320</revenu>
             <vitesse>12000</vitesse>
-            <quantite>14</quantite>
+            <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -190,7 +190,7 @@ and open the template in the editor.
             <croissance>1.12</croissance>
             <revenu>51840</revenu>
             <vitesse>24000</vitesse>
-            <quantite>14</quantite>
+            <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -231,7 +231,7 @@ and open the template in the editor.
             <croissance>1.11</croissance>
             <revenu>622080</revenu>
             <vitesse>96000</vitesse>
-            <quantite>14</quantite>
+            <quantite>0</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>

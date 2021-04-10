@@ -67,4 +67,11 @@ public class Webservices {
         String username = request.getHeader("X-user");
         services.updateUpgrade(username, upgrade);
     }
+
+    @PUT
+    @Path("world")
+    public void deleteWorld(@Context HttpServletRequest request)throws JAXBException{
+        String username = request.getHeader("X-user");
+        services.deleteWorld(username);
+    }
 }
