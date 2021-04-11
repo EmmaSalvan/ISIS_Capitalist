@@ -75,7 +75,7 @@ public class Services {
         world.setTotalangels(totalangels);
         world.setScore(score);
         saveWorldToXml(username, world);
-
+        
     }
 
     void updateWorld(World world, String username) {
@@ -310,4 +310,37 @@ public class Services {
         return angeToClaim;
     }
 
+    public PallierType findAngelByName(World world, String name) {
+        PallierType ange = null;
+        for (PallierType a : world.getAngelupgrades().pallier) {
+            if (name.equals(a.getName())) {
+                ange = a;
+            }
+        }
+        return ange;
+    }
+
+    public Boolean angelUpgrade(String username, PallierType angel) throws JAXBException{
+        World world = getWorld(username);
+        PallierType ange = findAngelByName(world, angel.getName());
+        if (ange == null) {
+            return false;
+        }
+        // débloquer cet ange
+        ange.setUnlocked(true);
+        int angels = ange.getSeuil();
+        double totalangels = world.getTotalangels();
+        double newtotalangel = totalangels - angels;
+        if(ange.getTyperatio() == TyperatioType.ANGE) {
+            int angeBonus = world.getAngelbonus();
+            angeBonus += angeBonus + ange.getRatio();
+            world.setAngelbonus(angeBonus);
+}
+        else{
+               updateUpgrade(username, ange);
+        }
+        world.setActiveangels(newtotalangel);
+        saveWorldToXml(username, world);
+        return true;
+    }
 }

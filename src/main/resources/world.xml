@@ -15,7 +15,7 @@ and open the template in the editor.
     <score>0</score>
     <totalangels>0</totalangels>
     <activeangels>0</activeangels>
-    <angelbonus>0</angelbonus>
+    <angelbonus>2</angelbonus>
     <lastupdate>0</lastupdate>
     <products>
         <product>
@@ -365,8 +365,8 @@ and open the template in the editor.
             <logo>icones/angelmarie.png</logo>
             <seuil>100000000</seuil>
             <idcible>0</idcible>
-            <ratio>9</ratio>
-            <typeratio>gain</typeratio>
+            <ratio>2</ratio>
+            <typeratio>ange</typeratio>
             <unlocked>false</unlocked>
         </pallier>
     </angelupgrades>

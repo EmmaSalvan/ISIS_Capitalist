@@ -71,6 +71,12 @@ public class Webservices {
         String username = request.getHeader("X-user");
         services.updateAllUnlock(username, allUnlock);
     }
+    @PUT
+    @Path("angel")
+    public void putAngel(@Context HttpServletRequest request, PallierType angel) throws JAXBException {
+        String username = request.getHeader("X-user");
+        services.angelUpgrade(username, angel);
+    }
 
     @DELETE
     @Path("world")
@@ -78,4 +84,6 @@ public class Webservices {
         String username = request.getHeader("X-user");
         services.deleteWorld(username);
     }
+
+    
 }
